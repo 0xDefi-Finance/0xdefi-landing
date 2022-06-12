@@ -11,38 +11,52 @@ const Home = () => {
         <Header />
         <div className="flex flex-col items-center justify-center flex-1 w-full h-full px-5 -my-10 text-center">
           <p className="py-1 text-3xl font-extrabold text-center text-transparent lg:text-4xl bg-clip-text bg-gradient-to-r from-purple-500 to-yellow-100 ">
-            Permisionless,Trustless and Community <br />  Driven Defi Protocol
+            Permisionless,Trustless and Community <br />  Governed Defi Protocol.
           </p>
-        
+
 
           <p className="my-5 text-xs lg:text-sm ">
-          <Typed
-      strings={[
-            "Home of DeFi on Shardeum",
-            "Community Focused & Community Driven",
-            "Experience Seamless Swapping of Tokens",
-            "Put Your Crypto on Work, Earn Sustainable Yields !"
-          ]}
-          typeSpeed={50}
-          backSpeed={70}
-          loop
-        />
+            <Typed
+              strings={[
+                "Home of DeFi on Shardeum",
+                "Community Focused & Community Driven",
+                "Experience Seamless Swapping of Tokens",
+                "Put Your Crypto on Work, Earn Sustainable Yields !"
+              ]}
+              typeSpeed={50}
+              backSpeed={70}
+              loop
+            />
           </p>
-         
+
           <div className="flex items-center my-2">
-            <a
-              href="#"
-              className="p-2 px-5 m-2 text-xs font-medium bg-indigo-500 rounded-md lg:text-sm hover:text-gray-100 hover:from-indigo-500 hover:to-pink-500 active:ring-2"
+            <button className="p-2 px-5 m-2 text-xs font-medium  text-black bg-gradient-to-r from-teal-200 to-lime-200  rounded-md lg:text-sm hover:text-black hover:from-lime-200 hover:to-teal-200 active:ring-2 before:content-['Launch_Dapp'] hover:before:content-['Coming_Soon']" disabled={true}
             >
-              Launch Dapp
-            </a>
+              <a
+                href="#"
+              >
+              </a>
+            </button>
+
+
             <a
               href="https://docs.0xdefi.finance"
-              className="p-2 px-5 m-2 text-xs font-medium bg-indigo-500 rounded-md lg:text-sm hover:text-gray-100 hover:from-indigo-500 hover:to-pink-500 active:ring-2"
             >
-              Explore Docs
+              <button className="p-2 px-5 m-2 text-xs font-medium  text-black bg-gradient-to-r from-teal-200 to-lime-200  rounded-md lg:text-sm hover:text-black hover:from-lime-200 hover:to-teal-200 active:ring-2 before:content-['Explore_Docs'] hover:before:content-['Explore_Docs']"
+              ></button>
             </a>
           </div>
+          <div className="flex items-center my-2">
+            <a
+              href="https://discord.gg/3q3d8gTwBn"
+            >
+              <button className="p-2 px-5 m-2 text-xs font-medium  text-gray-100 bg-gradient-to-tl from-gray-900 to-gray-600  rounded-md lg:text-sm hover:text-gray-100 hover:from-gray-600 hover:to-gray-900 active:ring-2 before:content-['Join_as_a_Contributor_🚀'] hover:before:content-['DM_Us_📩_/_Join_Discord']"
+              >
+              </button>
+            </a>
+
+          </div>
+
         </div>
       </section>
       <Footer />
