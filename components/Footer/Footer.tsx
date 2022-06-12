@@ -60,7 +60,7 @@ function Footer({}: Props) {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr className="my-6 border-gray-400 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2022{" "}
@@ -72,7 +72,7 @@ function Footer({}: Props) {
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
               href="https://discord.gg/3q3d8gTwBn"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-500 hover:text-gray-100"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ function Footer({}: Props) {
             </a>
             <a
               href="https://twitter.com/0xdefi_finance"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-500 hover:text-gray-100 "
             >
               <svg
                 className="w-5 h-5"
@@ -100,7 +100,7 @@ function Footer({}: Props) {
             </a>
             <a
               href="https://github.com/0xdefi-finance"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-500 hover:text-gray-100 "
             >
               <svg
                 className="w-5 h-5"
