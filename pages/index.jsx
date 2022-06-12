@@ -37,7 +37,7 @@ const Home = () => {
               Launch Dapp
             </a>
             <a
-              href="#"
+              href="https://docs.0xdefi.finance"
               className="p-2 px-5 m-2 text-xs font-medium bg-indigo-500 rounded-md lg:text-sm hover:text-gray-100 hover:from-indigo-500 hover:to-pink-500 active:ring-2"
             >
               Explore Docs
