@@ -10,8 +10,8 @@ const Home = () => {
       <section className="h-screen hero bg-[url('/hero.jpeg')] bg-cover">
         <Header />
         <div className="flex flex-col items-center justify-center flex-1 w-full h-full px-5 -my-10 text-center">
-          <p className="py-1 text-4xl font-extrabold text-center text-transparent lg:text-6xl bg-clip-text bg-gradient-to-r from-purple-500 to-yellow-100 ">
-            Permisionless and Trustless <br /> Defi Protocol
+          <p className="py-1 text-3xl font-extrabold text-center text-transparent lg:text-4xl bg-clip-text bg-gradient-to-r from-purple-500 to-yellow-100 ">
+            Permisionless,Trustless and Community <br />  Driven Defi Protocol
           </p>
         
 
