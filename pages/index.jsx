@@ -48,7 +48,7 @@ const Home = () => {
           </div>
           <div className="flex items-center my-2">
             <a
-              href="https://discord.gg/3q3d8gTwBn"
+              href="https://discord.gg/VVGkqA3hxG"
             >
               <button className="p-2 px-5 m-2 text-xs font-medium  text-gray-100 bg-gradient-to-tl from-gray-900 to-gray-600  rounded-md lg:text-sm hover:text-gray-100 hover:from-gray-600 hover:to-gray-900 active:ring-2 before:content-['Join_as_a_Contributor_🚀'] hover:before:content-['DM_Us_📩_/_Join_Discord']"
               >

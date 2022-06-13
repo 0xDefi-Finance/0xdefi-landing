@@ -50,7 +50,7 @@ function Footer({}: Props) {
                 </li>
                 <li>
                   <a
-                    href="https://discord.gg/3q3d8gTwBn"
+                    href="https://discord.gg/VVGkqA3hxG"
                     className="hover:underline"
                   >
                     Discord
@@ -71,7 +71,7 @@ function Footer({}: Props) {
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
-              href="https://discord.gg/3q3d8gTwBn"
+              href="https://discord.gg/VVGkqA3hxG"
               className="text-gray-500 hover:text-gray-100"
             >
               <svg
