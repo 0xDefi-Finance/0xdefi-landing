@@ -15,13 +15,14 @@ const Header = (props: Props) => {
           Alphanet Liberty 1.1
         </a>
         <div className="ml-10">
-        <button className="p-2 px-5 m-2 text-xs font-medium  text-black bg-gradient-to-r from-teal-200 to-lime-200  rounded-md lg:text-sm hover:text-black hover:from-lime-200 hover:to-teal-200 active:ring-2 before:content-['Launch_Dapp'] hover:before:content-['Coming_Soon']" disabled={true}
->
+          <button className="p-2 px-5 m-2 text-xs font-medium  text-black bg-gradient-to-r from-teal-200 to-lime-200  rounded-md lg:text-sm hover:text-black hover:from-lime-200 hover:to-teal-200 active:ring-2 " disabled={true}
+          >
             <a
-              href="#"
+              href="https://testnet.0xdefi.finance/" target="_blank"
             >
+              Launch Dapp
             </a>
-            </button>
+          </button>
         </div>
       </div>
     </div>
